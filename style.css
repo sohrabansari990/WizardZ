@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: #000;
+}
+
+.section1{
+    background: black;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    list-style: none;
+    gap: 13px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border-color: white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+nav i{
+    font-size: 20px;
+    color: white;
+    padding-right: 5px;
+    transform: rotate(45deg) ;
+}
+
+.hero{
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+
+#part1{
+   
+    height: 100%;
+    width: 45%;
+    
+}
+
+
+#part1 h1{
+    font-size: 50px;
+    padding: 40px 30px 20px 50px;
+}
+
+#part1 p{
+    font-size: 15px;
+    padding: 0 50px 20px 50px;
+}
+
+#part1 button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border-color: white;
+    background: white;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#part2{
+    height: 100%;
+    width: 55%;
+    position: relative;
+   
+
+}
+
+#part2 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    padding-top: 20px;
+    padding-right:  50px;
+}
+
+.section-bottom{
+   padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+   
+
+}
+
+.section-bottom img{
+    height: 60px;
+  
+    filter: brightness(0) invert(1);
+}
+#amazon{
+    height: 30px;
+   
+}
+
+
+.section2{
+    background: #000;
+    height: 120%;
+    width: 100%;
+    color: white;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.section2 h1{
+    font-size: 40px;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin-top: 40px ;
+    background: #7bbd2b;
+    border-radius: 10px;
+    padding: 5px;
+    height: auto;
+}
+
+.section2 p{
+    font-size: 15px;
+    padding: 20px 0;
+    width: 50%;
+    height: auto;
+}
+
+.part2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px 120px;
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.cards{
+
+    height: 180px;
+    width: 48%;
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    background: black;
+    border-radius: 20px;
+    border-bottom: #000 5px solid;
+    
+
+}
+
+.cards h3{
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px 20px;
+    padding: 2px;
+    color: black;
+    text-align: left;
+    background-color:#a9ec56;
+    border-radius: 5px;
+
+}
+
+.cards img{
+    width: fit-content;
+    height: auto;
+    margin: 20px;
+    padding: 2px;
+    overflow: hidden;
+    filter: brightness(0) invert(1);
+
+  
+}
+
+#elem{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    
+    
+}
+
+#elem2{
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    margin-top: 40px;
+    align-items: end;
+    gap: 10px;
+}
+
+#elem2 i{
+    font-size: 20px;
+    padding-right: 5px;
+    padding: 0.5vw;
+    border-radius: 50%;
+    
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#elem2 h2{
+    font-size: 2vw;
+}
+
+
+.white{
+    background: white;
+    color: black;
+    border-bottom: #000 5px solid;
+
+
+}
+.white img{
+    filter: brightness(0) saturate(100%);
+}
+
+.white i{
+    color:white;
+    background: #000;
+}
+
+.black{
+    border-bottom: #ffffff 5px solid;
+    outline: #888181 0.5px  solid;
+}
+.black h3{
+    background-color: #fff;
+} 
+.black i{
+    color: black;
+    background: white;
+}  
+
+.section3{
+    background: #000;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.section3 #partfirst{
+    height: 30%;
+    width: 90%;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+#partfirst #box1{
+    width: 50%;
+    color: #000;
+    padding: 40px;
+  
+    gap: 20px;
+    
+
+
+}
+
+#box1 h1{
+    transform: -translateY(40px);
+    padding-bottom: 10px;
+    font-size:30px ;
+
+
+}
+
+#box1 p{
+    padding-bottom: 20px;
+
+}
+
+#box1 button{
+    padding: 12px 50px ;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: end;
+    justify-content: left;
+    cursor: pointer;
+
+}
+
+#box2{
+    display: flex;
+    height: 30vh;
+}
+
+.section3 #part2nd{
+    width: 90%;
+    height: 30%;
+    margin-top: 20px;
+
+}
+
+#part2nd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+#part2nd h1{
+    white-space: nowrap;
+    background: #7cd60d;
+    padding: 5px;
+    color: #000;
+    border-radius: 10px;
+
+}
+
+#part3rd{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    border-radius: 20px;
+    color: #000;
+    gap: 20px;
+    
+}
+
+#line{
+    height: 80%;
+    width: 3px;
+    background:black;
+    margin-left:10px ;
+    margin-right: 10px;
+
+}
+
+#box p{
+    font-size: 15px;
+}
+#box h1{
+    padding-top: 10px;
+    color: #7cd60d;
+
+}
+
+#box div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+#box i{
+    font-size: 25px;
+    padding-top: 15px;
+    color: #7cd60d;
+
+}
+
+#footer{
+    background: #000;
+    height: 5%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+#footer i{
+    font-size: 20px;
+    color: white;
+    padding-right: 5px;
+   
+}
+#footer a{
+    text-decoration: none;
+
+}
